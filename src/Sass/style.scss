@@ -1,0 +1,26 @@
+
+.navbar {
+  background-color :#212529;
+  ;
+  border: none; 
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    color: teal;
+    img {
+      margin-right: 5px; 
+    }
+  }
+  .navbar-nav {
+    margin-left: auto; 
+    .nav-item {
+      .nav-link {
+        color: #212529; 
+        &:hover {
+          color: #d80e7d; 
+        }
+      }
+    }
+  }
+}

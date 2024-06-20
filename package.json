@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.77.6"
+  },
+  "name": "citiesintheworld",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  "sass": "sass --source-map src/sass/style.scss public/css/style.css",
+  "sass -w": "sass --watch src/sass/style.scss public/css/style.css"
+  },
+  "author": "antonella",
+  "license": "ISC",
+  "description": ""
+}
