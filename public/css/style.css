@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .navbar {
   background-color: #212529;
   border: none;
@@ -26,6 +27,30 @@
   height: 20vh;
   object-fit: cover;
   display: block;
+}
+
+.container-img {
+  width: 40vh;
+  height: 20vh;
+  margin: 8px;
+  overflow: hidden; /* Para asegurar que el texto no desborde */
+  position: relative;
+}
+.container-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* La imagen cubrirá el contenedor */
+}
+.container-img .text-overlay {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: end;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el texto */
+  padding: 2px;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
